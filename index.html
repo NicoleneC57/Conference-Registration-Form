@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration Form</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Conference Registration Form</h1>
+    <p>We thank you for your interest in participating at our conference. 
+        Fill in our online Conference Registration Form below to receive your 
+        badge number and schedule for the entire event.
+    </p>
+
+    <form action="#" method="#" autocomplete="on">
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" placeholder="e.g Jane" required><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname" placeholder="e.g Doe" required><br>
+        <label for="companyname">Company / Organisation</label><br> 
+        <input type="text" name="companyname" id="companyname" placeholder="e.g Design It" required><br>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email" placeholder="e.g janedoe@mail.com" required><br>
+        <label for="phone">Phone</label><br>
+        <input type="text" name="phone" id="phone" placeholder="084 044 0444" required><br><br> 
+        <label for="adress">Adress</label><br>
+        <input type="text" name="adress" id="adress" placeholder="Street Adress line 1" required><br>
+        <label for="street2"></label><br>
+        <input type="text" name="street2" id="street2" placeholder="Street Adress line 2" required><br>
+        <label for="city"></label><br>
+        <input type="text" name="city" id="city" placeholder="City" required><br>
+        <label for="region"></label><br>
+        <input type="text" name="region" id="region" placeholder="Region" required><br>
+        <label for="postal"></label><br>
+        <input type="text" name="postal" id="postal" placeholder="Postal/Zip Code" required><br>
+
+        <h3>Select your Conference Title</h3>
+        <select name="program" id="program" required> 
+            <option value="blank"></option>
+            <option value="Program 1">Program 1</option>
+            <option value="Program 2">Program 2</option>
+            <option value="Program 3">Program 3</option>
+            <option value="Program 4">Program 4</option>
+            <option value="Program 5">Program 5</option>
+            <option value="Program 6">Program 6</option>
+        </select><br>
+
+        <h3>Attending</h3>
+        <input type="checkbox" name="monday" id="monday" value="Monday Morning">
+        <label for="monday">Monday Morning</label><br>
+        <input type="checkbox" name="tuesday" id="tuesday" value="Tuesday Afternonn Session">
+        <label for="tuesday">Tuesday Afternoon</label><br>
+        <input type="checkbox" name="workshop" id="workshop" value="Daily Workshop">
+        <label for="workshop">Daily Workshop</label><br>
+        <input type="checkbox" name="dinner" id="dinner" value="dinner">
+        <label for="dinner">Dinner</label><br>
+
+        <h3>Do you require accomodation</h3>
+        <input type="radio" name="accomodation" id="yes" value="yes" required>
+        <label for="yes">Yes</label><br>
+        <input type="radio" name="accomodation" id="no" value="no" required>
+        <label for="no">No</label><br><br>
+        
+        <input class="button2" type="submit" value="Register">
+    </div>
+  
+    </form>
+    
+</body>
+</html>
